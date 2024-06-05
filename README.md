@@ -1,12 +1,39 @@
-Explore Japan's Earthquake History through Timeline map
+# Interactive Visualization: Explore Japan's Earthquake History
 
-This visualization features a selectable timeline, enabling viewers to see earthquake occurrences by year. 
-The interactive map provides a detailed and engaging way to explore the geographic distribution and magnitude of earthquakes over time, 
-enhancing user understanding through interactive exploration. 
+## Project Description:
+This interactive visualization allows viewers to dynamically explore the history of earthquakes in Japan from 1925 to 2024. 
+By selecting different years, viewers can see the geographic distribution and magnitude of earthquake occurrences, enhancing their understanding of historical seismic activity in Japan.
 
-Click on "Select a year" button and it will show a list of different years. 
-You can choose any year and it will show you where specifically earthquake hit Japan during that time.
+## Features: 
+- **Interactive Map**: Users can select a year to view earthquake data for that specific year.
+- **Geographic Visualization**: Earthquakes are plotted on a map of Japan, with the size of each point representing the magnitude of the earthquake.
+- **User-Friendly Interface**: Includes a dropdown menu and slider for easy year selection.
+- **User-friendly for Color-Blind Individuals**
 
-Additionally, if you can't see any red bubbles - then it means that there were no earthquakes during that year. 
+## Introduction
+This interactive map visualization was created to provide an engaging way to explore Japan's earthquake history. It uses a combination of HTML, CSS, JavaScript, and D3.js to render a dynamic and informative map that updates based on user input.
 
-I have used D3.js to be able to create this map. 
+
+## Installation
+To set up and run this interactive visualization locally, follow these steps:
+
+1. **Open the `index.html` file** in your preferred web browser:
+    ```bash
+    open index.html
+    ```
+
+2. **Check website: https://aki120900.github.io/earthquakes_japan_timeline_map/**
+
+
+## Usage
+- **Year Selection**: Use the dropdown menu or slider to select a year. The map will update to display earthquake data for the selected year.
+- **Additional Information**: If you are not going to be able to see any red buttons then it means there were no earthquakes during that specific year.
+
+## Data Sources
+The earthquake data used in this visualization was sourced from the [NOAA Hazards database](https://www.ngdc.noaa.gov/hazel/view/hazards/earthquake/search). The data was cleaned and processed to fit the requirements of the interactive map.
+
+
+## Acknowledgements
+- **D3.js**: This project uses D3.js for rendering the interactive map.
+- **NOAA Hazards Database**: For providing the comprehensive earthquake data used in this project.
+
