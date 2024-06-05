@@ -17,12 +17,20 @@ This interactive map visualization was created to provide an engaging way to exp
 ## Installation
 To set up and run this interactive visualization locally, follow these steps:
 
-1. **Open the `index.html` file** in your preferred web browser:
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/yourusername/japan-earthquake-history.git
+    cd japan-earthquake-history
+    ```
+
+2. **Open the `index.html` file** in your preferred web browser:
     ```bash
     open index.html
     ```
 
-2. **Check website: https://aki120900.github.io/earthquakes_japan_timeline_map/**
+OR
+
+**Check website: https://aki120900.github.io/earthquakes_japan_timeline_map/**
 
 
 ## Usage
